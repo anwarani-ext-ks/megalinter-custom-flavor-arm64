@@ -1,6 +1,7 @@
 ---
 # MegaLinter Custom Flavor configuration
 # If you update it manually, run `npx mega-linter-runner --custom-flavor-setup` to propagate updates.
+platform: "linux/amd64,linux/arm64"
 label: megalinter-arm64
 linters:
   - ACTION_ACTIONLINT
