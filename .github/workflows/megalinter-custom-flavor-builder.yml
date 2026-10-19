@@ -50,7 +50,7 @@ permissions: {}
 jobs:
   build-custom-flavor:
     name: Build Custom MegaLinter Flavor
-    runs-on: ARM64
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
